@@ -1,0 +1,94 @@
+﻿@model ProductVM
+@{
+	ViewData["Title"] = "Create Product";
+	Layout = "~/Areas/Admin/Views/_DashboardLayout.cshtml";
+}
+
+<div class="container mb-2">
+	<div class="card shadow border-0 mt-4" style="margin-bottom:100px;">
+		<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="text-white py-2">Create Product</h2> @* if statement if id !=0 update *@
+				</div>
+			</div>
+		</div>
+
+		<div class="card-body p-4 ">
+
+			<form method="post" class="row" enctype="multipart/form-data">
+				<div class="border p-3 mt-1">
+					<div class="mt-2 p-1">
+						<label asp-for="Product.Name" class="form-label p-0 fw-medium"></label>
+						<input asp-for="Product.Name" class="form-control" aria-describedby="emailHelp">
+						<span asp-validation-for="Product.Name" class="text-danger"></span>
+						@* <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> *@
+					</div>
+					<div class="mt-2 p-1">
+						<label asp-for="Product.Description" class="form-label p-0 fw-medium"></label>
+						<textarea asp-for="Product.Description" class="form-control"></textarea>
+						<span asp-validation-for="Product.Description" class="text-danger"></span>
+					</div>
+					<div class="mt-2 p-1">
+						<label asp-for="Product.ListPrice" class="form-label p-0 fw-medium"></label>
+						<input asp-for="Product.ListPrice" class="form-control">
+						<span asp-validation-for="Product.ListPrice" class="text-danger"></span>
+					</div>
+					<div class="mt-2 p-1">
+						<label asp-for="Product.Price" class="form-label p-0 fw-medium"></label>
+						<input asp-for="Product.Price" class="form-control">
+						<span asp-validation-for="Product.Price" class="text-danger"></span>
+					</div>
+					<div class="mt-2 p-1">
+						<label asp-for="Product.CategoryId" class="form-label p-0 fw-medium">Category Name</label>
+						<select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+							<option disabled selected>--Select Category--</option>
+						
+						</select>
+						<span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+					</div>
+					<div class="mt-2 p-1">
+						<label asp-for="Product.ImageUrl" class="form-label p-0 fw-medium"></label>
+						<input type="file" name="file" class="form-control">
+					</div>
+					<div class=" row mt-3">
+						<div class="col-6 col-md-3">
+							<button type="submit" class="btn btn-primary form-control">Create Product</button>
+						</div>
+						<div class="col-6 col-md-3">
+							<a asp-controller="Product" asp-action="Index" class="btn btn-outline-secondary form-control">Back to List</a>
+
+						</div>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+
+@*code for client side validation*@
+@section Scripts {
+	<script>
+		tinymce.init({
+			selector: 'textarea',
+			plugins: [
+				// Core editing features
+				'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'lists', 'table', 'visualblocks', 'wordcount',
+				// Your account includes a free trial of TinyMCE premium features
+				// Try the most popular premium features until Apr 21, 2025:
+				// 'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown', 'importword', 'exportword', 'exportpdf'
+			],
+			toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent',
+			tinycomments_mode: 'embedded',
+			tinycomments_author: 'Author name',
+			mergetags_list: [
+				{ value: 'First.Name', title: 'First Name' },
+				{ value: 'Email', title: 'Email' },
+			],
+			ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+		});
+	</script>
+
+	<partial name="_ValidationScriptsPartial" />
+}

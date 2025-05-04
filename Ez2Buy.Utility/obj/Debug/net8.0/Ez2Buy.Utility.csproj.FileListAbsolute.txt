@@ -1,0 +1,13 @@
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\bin\Debug\net8.0\Ez2Buy.Utility.deps.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\bin\Debug\net8.0\Ez2Buy.Utility.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\bin\Debug\net8.0\Ez2Buy.Utility.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.csproj.AssemblyReference.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.AssemblyInfoInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.AssemblyInfo.cs
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.csproj.CoreCompileInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.sourcelink.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\refint\Ez2Buy.Utility.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\Ez2Buy.Utility.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.Utility\obj\Debug\net8.0\ref\Ez2Buy.Utility.dll

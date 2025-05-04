@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Ez2BuyWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ez2BuyWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\product\\052afd52-d073-42ee-b9fa-037964dae330.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\052afd52-d073-42ee-b9fa-037964dae330.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\product\\61b3db4c-8786-466f-9a5a-aebb3f9a1c62.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\61b3db4c-8786-466f-9a5a-aebb3f9a1c62.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\product\\cbed33d8-fc95-4cc5-a1e1-a1f1ea49b9b7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\cbed33d8-fc95-4cc5-a1e1-a1f1ea49b9b7.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\product\\e8d402e8-3fd8-4a75-ad99-f1b856b751eb.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e8d402e8-3fd8-4a75-ad99-f1b856b751eb.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\adidas brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\adidas brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\araby brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\araby brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\braun brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\braun brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\decker brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\decker brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\defacto brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\defacto brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\lenovo brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\lenovo brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\oraimo brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\oraimo brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\samsung brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\samsung brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\skechers brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\skechers brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\starvile brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\starvile brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\tornado brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\tornado brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\brands\\xiaomi brand.png",
+      "PackagePath": "staticwebassets\\images\\static\\brands\\xiaomi brand.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-Fashion.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-Fashion.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-beauty.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-beauty.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-electronics.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-electronics.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-grocery.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-grocery.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-home&kitchen.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-home&kitchen.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\cat-sport.png",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\cat-sport.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\support-email.svg",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\support-email.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\support-help-center.svg",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\support-help-center.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\icons\\support-icon-phone.svg",
+      "PackagePath": "staticwebassets\\images\\static\\icons\\support-icon-phone.svg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\static\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\red polo.png",
+      "PackagePath": "staticwebassets\\images\\static\\red polo.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\red-home image.jpg",
+      "PackagePath": "staticwebassets\\images\\static\\red-home image.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\stripe.png",
+      "PackagePath": "staticwebassets\\images\\static\\stripe.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\stripe2.png",
+      "PackagePath": "staticwebassets\\images\\static\\stripe2.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\test2.jpg",
+      "PackagePath": "staticwebassets\\images\\static\\test2.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\images\\static\\visa.png",
+      "PackagePath": "staticwebassets\\images\\static\\visa.png"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\js\\category.js",
+      "PackagePath": "staticwebassets\\js\\category.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\adminlte\\dist\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\dist\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\adminlte\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\adminlte\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\adminlte\\dist\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\dist\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\Code\\Programming projects\\.Net\\Ez2Buy\\Ez2BuyWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ez2BuyWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Ez2BuyWeb.props",
+      "PackagePath": "build\\Ez2BuyWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Ez2BuyWeb.props",
+      "PackagePath": "buildMultiTargeting\\Ez2BuyWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Ez2BuyWeb.props",
+      "PackagePath": "buildTransitive\\Ez2BuyWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

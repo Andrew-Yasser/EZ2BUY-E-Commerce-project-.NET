@@ -1,0 +1,77 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+    @* logic to get name from Appuser to use in the view *@
+@{
+    string userName = "User";
+    if (SignInManager.IsSignedIn(User))
+    {
+        var userId = UserManager.GetUserId(User);
+        var user = Task.Run(() => UserManager.FindByIdAsync(userId)).Result;
+        var appUser = user as AppUser;
+        userName = appUser?.Name ?? "User";
+    }
+}
+
+<div class="d-flex align-items-center gap-2 justify-content-between me-2">
+@if (SignInManager.IsSignedIn(User))
+{
+
+        @* <a id="manage" class="nav-link text-dark fw-semibold" style="font-size:15px;" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage Account">Hello, @UserManager.GetUserName(User)!</a> *@
+        <div class="dropdown">
+            <a class="nav-link text-dark fw-semibold dropdown-toggle text-capitalize" style="font-size:15px;" href="#" role="button" id="manageDropdown" data-bs-toggle="dropdown" aria-expanded="false" title="Manage Account">
+                Hello, @userName!
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="manageDropdown">
+                @if (User.IsInRole(SD.Role_Customer))
+                {
+                    <li><a class="dropdown-item text-dark fs-6 fw-normal" asp-area="Identity" asp-page="/Account/Manage/Index"><i class="bi bi-person-circle fs-5 me-2 text-secondary"></i>Profile</a></li>
+                    <li><a class="dropdown-item text-dark fs-6 fw-normal" asp-area="Admin" asp-controller="Order" asp-action="Index"><i class="bi bi-receipt fs-5 me-2 text-secondary"></i>Orders</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                }
+                @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                {
+                    <li><a class="dropdown-item text-dark fs-6 fw-normal" asp-area="Admin" asp-controller="Dashboard" asp-action="Index"><i class="bi bi-speedometer2 fs-5 me-2 text-secondary"></i>Dashboard</a></li>
+                    <li><a class="dropdown-item text-dark fs-6 fw-normal" asp-area="Identity" asp-page="/Account/Manage/Index"><i class="bi bi-person-circle fs-5 me-2 text-secondary"></i>Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                }
+                <li>
+                    <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="dropdown-item" style="font-size:14px;"><i class="bi bi-box-arrow-in-right fs-6 me-2 text-secondary"></i>Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+
+@*         <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="btn btn-link p-0" title="Logout" aria-label="Logout">
+                <i class="bi bi-box-arrow-right fs-4 text-danger"></i>
+            </button>
+        </form>
+ *@
+}
+else
+{
+@* 
+        <div class="btn-group">
+            <button class="btn btn-outline-dark dropdown-toggle fs-6" type="button" id="authDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person fs-4 pr-2 me-1"></i> Account
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="authDropdown">
+                <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+                <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+            </ul>
+        </div> *@
+
+
+        @* <a class="btn d-flex align-items-center me-1" id="register" asp-area="Identity" asp-page="/Account/Register"> <i class="bi bi-person fs-5 pr-2"></i>Register</a> *@
+
+
+        <a class="btn btn-outline-dark d-flex align-items-center " style="font-size:17px;" id="login" asp-area="Identity" asp-page="/Account/Login"><i class="bi bi-person fs-4 pr-2 me-1"></i>Login</a>
+
+    
+}
+</div>

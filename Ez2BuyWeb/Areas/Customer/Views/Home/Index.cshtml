@@ -1,0 +1,331 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="container">
+    <div class="row pb-3">
+        @foreach(var product in Model)
+        {
+            <div class="col-lg-3 col-sm-6">
+                <div class="row p-2">
+                    <div class="col-12 p-1">
+                        <div class="card border-0 p-3 shadow border-top border-5 rounded">
+                            <img src="@product.ImageUrl" class="card-img-top rounded"></img>
+                            <div class="card-body pb-0">
+                                <div class="pl-1">
+                                    <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Name</p>
+                                    <p class="card-title text-warning text-center">by <b>@product.Name</b></p>
+
+                                </div>
+                                <div class="pl-1">
+                                    <p class="text-dark opacity-75 text-uppercase text-center">Price: <span>@product.Price.ToString("c")</span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div> *@
+
+
+<!-- Start Hero Section -->
+<section class="container py-5 bg-light mt-3" style="border-radius:25px; ">
+    <div class="container">
+        <div class="row align-items-center ps-2">
+            <!-- Hero Text -->
+            <div class="col-lg-8 col-md-12 text-center text-lg-start mb-3 mb-lg-0">
+                <h1 class="display-5 fw-bold text-dark flex-wrap">Discover the Latest Fashion Trends</h1>
+                <p class="lead text-muted mb-4">Shop high-quality clothing, accessories, and more at unbeatable prices. Elevate your style today!</p>
+                <a asp-action="Products" class="btn btn-primary btn-lg rounded-3">Shop Now <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <!-- Hero Image -->
+            <div class="col-lg-4 col-md-12">
+                <img src="/images/static/red polo.png" class="img-fluid rounded" style="max-height:500px;" alt="Hero Banner"> @* image size 600x400 *@
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Hero Section -->
+<!-- Start Promotional Banner Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4 position-relative">
+            <!-- Left Promotional Banner -->
+            <div class="col-lg-8 col-md-12">
+                <div class="card border-0 rounded-4 shadow-sm" style="background: linear-gradient(90deg, #f8e1e1, #f5c6cb);">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-9 p-4">
+                            <h2 class="fw-bold text-dark">Best Sellers 2025</h2>
+                            <p class="text-dark opacity-75">Shop top-rated products across all categories</p>
+                            <a asp-action="Products" class="btn btn-dark rounded-3">See Best Sellers <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="~/images/static/laptop-rm.png" class="img-fluid rounded-end" alt="Spring Collection" style="max-height:300px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Discount Highlight -->
+            <div class="col-lg-4 col-md-12 position-relative">
+                <div class="card border-0 rounded-4 shadow-sm text-center p-4" style="background: #e6f0fa;">
+                    <h3 class="fw-bold text-primary">Limited Time</h3>
+                    <p class="text-dark opacity-75">Flash sales on top picks — up to 40% off!</p>
+                    <a href="#" class="btn btn-outline-primary rounded-3 mb-1">Shop Deals</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Promotional Banner Section -->
+<!-- Start Our Services Section -->
+<section class="py-0 bg-white" id="services">
+    <div class="container">
+        @* <h2 class="text-center mb-4 fw-bold">Our Services</h2> *@
+        <div class="row g-4 text-center">
+            <!-- Service 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="p-4 border-0 rounded-4 shadow-md">
+                    <div class="mb-3">
+                        <i class="bi bi-truck fs-1 text-secondary"></i> <!-- Bootstrap Icon -->
+                    </div>
+                    <h5 class="fw-semibold mb-2">Fast Delivery</h5>
+                    <p class="text-muted small">Get your products quickly with our express delivery service.</p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="p-4 border-0 rounded-4 shadow-md">
+                    <div class="mb-3">
+                        <i class="bi bi-shield-lock fs-1 text-secondary"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-2">Secure Payment</h5>
+                    <p class="text-muted small">All your transactions are safe and encrypted for maximum security.</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="p-4 border-0 rounded-4 shadow-md">
+                    <div class="mb-3">
+                        <i class="bi bi-arrow-repeat fs-1 text-secondary"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-2">Easy Returns</h5>
+                    <p class="text-muted small">Not satisfied? Return your product within 30 days hassle-free.</p>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="p-4 border-0 rounded-4 shadow-md">
+                    <div class="mb-3">
+                        <i class="bi bi-headset fs-1 text-secondary"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-2">24/7 Support</h5>
+                    <p class="text-muted small">Our support team is ready to help you anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Our Services Section -->
+<!-- Start Category Section -->
+<section class="py-5 my-5">
+    <div class="container">
+        <h2 class=" mb-4 fw-bold">Popular Categories</h2>
+        <div class="row g-4">
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-electronics.png" alt="Electronics">
+                    <h6>Electronics</h6>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-Fashion.png" alt="Fashion">
+                    <h6>Fashion</h6>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-home&kitchen.png" alt="Home & Kitchen">
+                    <h6>Home & Kitchen</h6>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-beauty.png" alt="Beauty & Health">
+                    <h6>Beauty & Health</h6>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-grocery.png" alt="Grocery">
+                    <h6>Grocery</h6>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="category-item text-center">
+                    <img src="~/images/static/icons/cat-sport.png" alt="Sports & Fitness">
+                    <h6>Sports & Fitness</h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Category Showcase Section -->
+<!-- start Trending Products section -->
+<section class="py-5 mb-5" id="trending-products">
+    <div class="container section-title">
+        <h2 class=" text-center mb-4 fw-bold">Trending Products</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-sm-6">
+                    <div class="row p-2">
+                        <div class="col-12 p-1">
+                            <a asp-action="Details" asp-route-ProductId="@product.Id" class="text-decoration-none">
+                                <div class="card border-3 p-3 shadow rounded">
+                                    @* border-top border-4  this if we want to add colored top border*@
+                                    <div class="product-card">
+                                        <img src="@product.ImageUrl" class="card-img-top img-fluid rounded">
+
+                                    </div>
+                                    <div class="card-body pb-0">
+                                        <div>
+                                            <h5 class="card-title text-dark text-uppercase fw-medium">@product.Name</h5>
+                                            <p class="card-text text-dark">@product.Category.Name</p>
+                                        </div>
+                                        <div class="pl-1 pt-2 align-center">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="text-black opacity-75 text-uppercase fw-bold">Price: <span>@product.Price.ToString("c")</span></p>
+                                                <p class="text-dark opacity-75 text-decoration-line-through" style="font-size:14px;"><span>@product.ListPrice.ToString("c")</span></p>
+
+                                            </div>
+                                            @* if iwant to make btn add to cart uncomment and uncomment addtocart incontroller *@
+@*                                             <form asp-action="AddToCart" method="post" class="d-grid">
+                                                <input type="hidden" name="productId" value="@product.Id" />
+                                                <button type="submit" class="btn btn-primary form-control">Add to Cart</button>
+                                            </form> *@
+                                            <a asp-action="Details" asp-route-ProductId="@product.Id" class="btn btn-secondary form-control">Details</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <!-- View All Products Button -->
+        <div class="text-end mt-4">
+            <a asp-action="Products" class="btn btn-primary px-3 py-2 rounded-pill fw-semibold d-inline-flex align-items-center gap-2">View All Products <i class="bi bi-arrow-right fw-medium"></i></a>
+        </div>
+    </div>
+</section>
+<!-- End Trending Products section -->
+
+<!-- start BRANDS section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4 fw-bold text-dark">Your Favorite Brands</h2>
+        <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/adidas brand.png" alt="adidas" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/decker brand.png" alt="decker" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/oraimo brand.png" alt="oraimo" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/tornado brand.png" alt="tornado" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/braun brand.png" alt="braun" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/araby brand.png" alt="araby" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/defacto brand.png" alt="defacto" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/lenovo brand.png" alt="lenovo" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/skechers brand.png" alt="skechers" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/samsung brand.png" alt="samsung" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/starvile brand.png" alt="starvile" class="img-fluid p-2">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+                <img src="~/images/static/brands/xiaomi brand.png" alt="xiaomi" class="img-fluid p-2">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End BRANDS section -->
+
+<section class="py-3 mb-0" style="background-color:#2e2e2e;">
+    <div class="container">
+        <div class="row align-items-center text-white">
+            <!-- Left Side: Title and Subtitle -->
+            <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+                <h4 class="fw-bold">We're Always Here To Help</h4>
+                <p class="text-white">
+                    Reach out to us through any of these support channels
+                </p>
+            </div>
+
+            <!-- Right Side: Support Options -->
+            <div class="col-md-8">
+                <div class="d-flex justify-content-center justify-content-md-end flex-wrap gap-4">
+
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="~/images/static/icons/support-help-center.svg" alt="Help Center" class="rounded-circle border p-1 bg-white">
+                        <div>
+                            <small class="text-uppercase text-white">Help Center</small><br>
+                            <span class="fw-bold">help.Ez2Buy.tech</span>
+                        </div>
+                    </div>
+
+                    <!-- Email Support -->
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="~/images/static/icons/support-email.svg" alt="Email Support" class="rounded-circle border p-1 bg-white">
+                        <div>
+                            <small class="text-uppercase text-white">Email Support</small><br>
+                            <span class="fw-bold">support@Ez2buy.tech</span>
+                        </div>
+                    </div>
+
+                    <!-- Phone Support -->
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="~/images/static/icons/support-icon-phone.svg" alt="Phone Support" class="rounded-circle border p-1 bg-white">
+                        <div>
+                            <small class="text-uppercase text-white">Phone Support</small><br>
+                            <span class="fw-bold">16422</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

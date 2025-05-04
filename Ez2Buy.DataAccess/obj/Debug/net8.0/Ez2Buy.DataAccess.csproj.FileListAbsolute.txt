@@ -1,0 +1,48 @@
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.deps.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.runtimeconfig.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.AssemblyReference.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfoInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfo.cs
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.sourcelink.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\refint\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.genruntimeconfig.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.DataAccess\obj\Debug\net8.0\ref\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.deps.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.runtimeconfig.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.AssemblyReference.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfoInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfo.cs
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.sourcelink.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\refint\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.genruntimeconfig.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi\Ez2Buy.DataAccess\obj\Debug\net8.0\ref\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.deps.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.runtimeconfig.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.AssemblyReference.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfoInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.AssemblyInfo.cs
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.sourcelink.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\refint\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.DataAccess.genruntimeconfig.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\ref\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.Utility.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\bin\Debug\net8.0\Ez2Buy.Utility.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy\Ez2Buy.DataAccess\obj\Debug\net8.0\Ez2Buy.D.5B3FD6CA.Up2Date

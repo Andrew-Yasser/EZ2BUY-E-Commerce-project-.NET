@@ -1,0 +1,59 @@
+﻿
+
+@{
+	ViewData["title"] = "Users Page";
+	Layout = "~/Areas/Admin/Views/_DashboardLayout.cshtml";
+}
+
+@* i added partial view for notification in _layout so we dont need to add it in each file *@
+
+<!--begin::App Content Header-->
+<div class="app-content-header mt-3 mx-2">
+	<!--begin::Container-->
+	<div class="container-fluid">
+		<!--begin::Row-->
+		<div class="row">
+			<div class="col-sm-6"><h3 class="mb-0">Users</h3></div>
+			<div class="col-sm-6">
+				<ol class="breadcrumb float-sm-end">
+					<li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Dashboard</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Users</li>
+				</ol>
+			</div>
+		</div>
+		<!--end::Row-->
+	</div>
+	<!--end::Container-->
+</div>
+<!--end::App Content Header-->
+
+
+<div class="container mb-2">
+	<div class="card shadow border-0 mt-4 card-margin">
+		<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="text-white py-2">User List</h2>
+				</div>
+			</div>
+		</div>
+		<div class="card-body p-4">
+			<table id="tblData" class="table table-bordered table-striped datatbl">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Phone</th>
+						<th>Role</th>
+						<th></th>
+
+					</tr>
+				</thead>
+
+			</table>
+		</div>
+	</div>
+</div>
+@section Scripts {
+	<script src="~/js/user.js"></script>
+}

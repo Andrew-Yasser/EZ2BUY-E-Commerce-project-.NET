@@ -1,0 +1,50 @@
+﻿@model RoleManagementVM
+@{
+	ViewData["Title"] = "Manage User Role";
+	Layout = "~/Areas/Admin/Views/_DashboardLayout.cshtml";
+
+}
+<div class="container">
+	<div class="card shadow border-0 mt-4">
+		<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="text-white py-2">Manage User Role</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="card-body p-4">
+
+			<form method="post" class="row">
+				<input asp-for="AppUser.Id" hidden />
+				<div class="border p-3 mt-4">
+					<div class="mt-2 p-1">
+						<label asp-for="AppUser.Name" class="form-label p-0 fw-bold"></label>
+						<input asp-for="AppUser.Name" readonly class="form-control" aria-describedby="emailHelp">
+					</div>
+					<div class="mt-2 p-1">
+						<select asp-for="AppUser.Role" asp-items="@Model.RoleList" class="form-select">
+						</select>
+					</div>
+					<div class=" row mt-3">
+						<div class="col-6 col-md-3">
+							<button type="submit" class="btn btn-primary form-control">Update Role</button>
+						</div>
+						<div class="col-6 col-md-3">
+							<a asp-action="Index" class="btn btn-outline-secondary form-control">Back to List</a>
+
+						</div>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+
+
+@*code for client side validation*@
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

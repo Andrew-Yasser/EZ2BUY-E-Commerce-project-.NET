@@ -1,0 +1,13 @@
+﻿@model int
+
+<div class="container card-margin py-4">
+    <!-- Confirmation Header -->
+    <div class="text-center mb-4">
+        <i class="bi bi-check-circle-fill text-success" style="font-size: 4rem;"></i>
+        <h3 class="mt-3">Thank You for Your Purchase!</h3>
+        <p class="lead text-muted">Payment has been applied successfully!</p>
+        <p class="text-muted">Order Number: <strong class="text-dark">@Model</strong></p>
+            <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-orderId="@Model" class="btn btn-outline-primary px-4 rounded-pill">Back to Order Details</a>
+    </div>
+
+</div>

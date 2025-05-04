@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-8 mb-4">
+            <div class="bg-white p-4 rounded-3 shadow border">
+                <h2 class="mb-4">Get in Touch</h2>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4">
+            <div class="bg-white p-4 rounded-3 shadow border">
+                <h4>Need a Help?</h4>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>(20) 555-0112
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-envelope-fill text-warning me-3"><a href='mailto:support@ez2buy.tech'>support@ez2buy.tech</a></i>
+                    </li>
+                </ul>
+                <h5 class="mt-4">Follow Us</h5>
+                <div>
+                    <a href="#" class="text-primary me-2"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-dark me-2"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="text-brown me-2"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="text-danger"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

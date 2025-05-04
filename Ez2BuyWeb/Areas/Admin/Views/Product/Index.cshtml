@@ -1,0 +1,72 @@
+﻿ @* @model IEnumerable<Ez2BuyWeb.ViewModels.ProductVM> *@
+@model IEnumerable<Ez2Buy.DataAccess.Models.Product>
+
+@{
+	ViewData["title"] = "Products Page";
+	Layout = "~/Areas/Admin/Views/_DashboardLayout.cshtml";
+}
+
+@* i added partial view for notification in _layout so we dont need to add it in each file *@
+
+<!--begin::App Content Header-->
+<div class="app-content-header mt-3 mx-2">
+	<!--begin::Container-->
+	<div class="container-fluid">
+		<!--begin::Row-->
+		<div class="row">
+			<div class="col-sm-6"><h3 class="mb-0">Products</h3></div>
+			<div class="col-sm-6">
+				<ol class="breadcrumb float-sm-end">
+					<li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Dashboard</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Products</li>
+				</ol>
+			</div>
+		</div>
+		<!--end::Row-->
+	</div>
+	<!--end::Container-->
+</div>
+<!--end::App Content Header-->
+
+
+<div class="container mb-2">
+	<div class="card shadow border-0 mt-4">
+		<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="text-white py-2">Product List</h2>
+				</div>
+			</div>
+		</div>
+		<div class="card-body p-4">
+			<div class="row pb-3">
+
+				<div class="col-6">
+				</div>
+				<div class="col-6 text-end">
+					<a asp-controller="Product" asp-action="Create" class="btn rounded btn-primary p-2">
+						<i class="bi bi-plus-circle fs-6"></i> Create New Product
+					</a>
+				</div>
+
+			</div>
+			<table id="tblData" class="table table-bordered table-striped datatbl">
+				<thead>
+					<tr>
+						<th>Product Name</th>
+						@* <th>Description</th> *@
+						<th>List Price</th>
+						<th>Price</th>
+						<th>Category Name</th>
+						<th></th>
+
+					</tr>
+				</thead>
+
+			</table>
+		</div>
+	</div>
+</div>
+@section Scripts{
+	<script src="~/js/product.js"></script>
+}

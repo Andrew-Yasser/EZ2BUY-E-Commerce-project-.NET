@@ -1,0 +1,16 @@
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\bin\Debug\net8.0\Ez2Buy.Service.deps.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\bin\Debug\net8.0\Ez2Buy.Service.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\bin\Debug\net8.0\Ez2Buy.Service.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\bin\Debug\net8.0\Ez2Buy.DataAccess.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\bin\Debug\net8.0\Ez2Buy.DataAccess.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.csproj.AssemblyReference.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.AssemblyInfoInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.AssemblyInfo.cs
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.csproj.CoreCompileInputs.cache
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.sourcelink.json
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.S.BD61CBF0.Up2Date
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\refint\Ez2Buy.Service.dll
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\Ez2Buy.Service.pdb
+D:\Programming\Code\Programming projects\.Net\Ez2Buy-Depi Structure\Ez2Buy.Services\obj\Debug\net8.0\ref\Ez2Buy.Service.dll

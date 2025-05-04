@@ -1,0 +1,193 @@
+﻿
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ez2BuyWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-sandstone.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" /> @* lib for notifications *@
+    <link rel="stylesheet" href="//cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ez2BuyWeb.styles.css" asp-append-version="true" />
+</head>
+<body>
+ 
+    <!-- Top Info Bar -->
+    <div class="top-bar border-bottom small py-2">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+            <!-- Left Side: Social Media and Contact -->
+            <div class="d-flex align-items-center gap-2">
+                <span class="me-2">Follow Us:</span>
+                <a href="#"><i class="bi bi-facebook fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter-x fs-5 text-dark"></i></a>
+            </div>
+
+            <!-- Center: Home, Products, About -->
+            <div class="d-flex justify-content-center flex-grow-1" style="font-size:15px;">
+                <a asp-action="Index" class="text-decoration-none me-3 text-dark fw-medium">
+                    <i class="bi bi-house text-secondary"></i> Home
+                </a>
+                <a asp-action="Products" class="text-decoration-none me-3 text-dark fw-medium">
+                    <i class="bi bi-box text-secondary"></i> Products
+                </a>
+                <a asp-action="About" class="text-decoration-none me-3 text-dark fw-medium">
+                    <i class="bi bi-info-circle text-secondary"></i> About
+                </a>
+            </div>
+
+            <!-- Right Side: Empty (No Sign In / Register) -->
+            <div>
+                <span class="ms-3 d-none d-md-inline">
+                     <i class="bi bi-telephone"></i> 16422
+                    | <i class="bi bi-envelope"></i> support@ez2buy.tech
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" asp-area="Customer" asp-controller="Home" asp-action="Index">Ez2Buy<span class="text-secondary">.</span></a>
+
+                <!-- Search and Category -->
+                <form class="d-flex flex-grow-1 mx-4 " role="search" method="get" action="@Url.Action("Products", "Home")" >
+                    <div class="input-group w-100">
+@*                         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            All Category
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Electronics</a></li>
+                            <li><a class="dropdown-item" href="#">Fashion</a></li>
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                        </ul> *@
+                        <input type="search" class="form-control" name="searchTerm" placeholder="Search Products Here..." >
+                        <button class="btn btn-dark" type="submit"><i class="bi bi-search"></i></button>
+                    </div>
+                </form>
+
+                <!-- Icons -->
+                <div class="d-flex align-items-center">
+                    <partial name="_LoginPartial"/>
+                    @* <a href="#" class="text-dark me-3 fs-4"><i class="bi bi-person"></i></a> *@
+                    <a href="#" class="text-dark mx-3 fs-5"><i class="bi bi-heart"></i></a>
+
+                     <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="text-dark position-relative">
+                         <i class="bi bi-cart fs-4"></i>
+                            @await Component.InvokeAsync("ShoppingCart")  @* This will call the ShoppingCart component that called ShoppingCart *@
+                     </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Bottom Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+            <div class="container">
+                @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                {
+                <button class="btn btn-warning me-3">
+                    <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index"><i class="bi bi-list"></i> CATEGORIES</a>
+                    </button>
+                }else
+                {
+                    <button class="btn btn-warning me-3">
+                        <a href="#" class="nav-link"><i class="bi bi-list"></i> CATEGORIES</a>
+                    </button>
+                }
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" asp-action="Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="Products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="ContactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="">
+        @*here it was container as class by default *@
+        <main role="main" class="">
+            <partial name="_Notification" />  @*notification partial view*@
+            @RenderBody()
+        </main>
+    </div>
+
+<footer class="pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <!-- Site Name and Brief -->
+                <div class="col-md-4 mb-4">
+                    <h6 class="mb-3 fs-4">Ez2Buy</h6>
+                    <p class="small">Smart shopping starts with Ez2Buy.</p>
+                </div>
+
+                <!-- Customer Service Links -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="mb-3">Explore</h6>
+                    <ul class="list-unstyled small">
+                        <li><a asp-action="Index">Home</a></li>
+                        <li><a asp-action="Products">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a asp-action="ContactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="mb-3">Follow Us</h6>
+                    <div>
+                        <a href="#" class="me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#"><i class="bi bi-youtube fs-5"></i></a>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="mb-3">Newsletter</h6>
+                    <p class="small">Stay updated with our latest offers and products.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control newsletter-input" placeholder="Your Email" aria-label="Your Email">
+                        <button class="btn newsletter-btn" type="button">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="row border-top border-secondary pt-3 align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small mb-0">© 2025 Ez2Buy. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end payment-icons">
+                    <img src="~/images/static/stripe2.png" class="me-2" alt="Stripe" />
+                    <img src="~/images/static/visa.png" alt="Visa" />
+                    <img src="~/images/static/mastercard.png" alt="master Card" />
+                </div>
+            </div>
+        </div>
+</footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.datatables.net/2.2.2/js/dataTables.min.js" asp-append-version="true"></script>
+    <script src="https://cdn.tiny.cloud/1/j6c86iaanxwbcyrwvru23zkqj3lklc70a55pa7zm5zbvu021/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

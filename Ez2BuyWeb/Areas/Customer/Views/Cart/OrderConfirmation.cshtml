@@ -1,0 +1,76 @@
+﻿@model ShoppingCartVM
+
+<div class="container card-margin py-4">
+    <!-- Confirmation Header -->
+    <div class="text-center mb-4">
+        <i class="bi bi-check-circle-fill text-success" style="font-size: 4rem;"></i>
+        <h3 class="mt-2">Hi @Model.OrderHeader.Name,</h3>
+        <h3 class="mt-3">Thank You for Your Purchase!</h3>
+        <p class="lead text-muted">Your order is successfully placed.</p>
+        <p class="text-muted">Order Number: <strong class="text-dark">@Model.OrderHeader.Id</strong></p>
+        <p class="text-muted">Placed on: <strong class="text-dark">@Model.OrderHeader.OrderDate.ToShortDateString()</strong></p>
+    </div>
+
+    <!-- Order Information Cards -->
+    <div class="row justify-content-center">
+        <!-- Shipping Info Card -->
+        <div class="col-lg-5 mb-4">
+            <div class="card shadow border-0">
+                <div class="card-header bg-secondary text-white rounded-top-2">
+                    <h5 class="mb-0">Shipping Information</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Name:</strong> @Model.OrderHeader.Name</p>
+                    <p><strong>Phone:</strong> @Model.OrderHeader.PhoneNumber</p>
+                    <p><strong>Address:</strong> @Model.OrderHeader.StreetAddress</p>
+                    <p><strong>City:</strong> @Model.OrderHeader.City</p>
+                    <p><strong>Governorate:</strong> @Model.OrderHeader.Governorate</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary Card -->
+        <div class="col-lg-6 offset-lg-1 mb-4">
+            <div class="card shadow border-0">
+                <div class="card-header bg-secondary text-white rounded-top-2">
+                    <h5 class="mb-0">Order Summary</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group mb-3">
+                        @foreach (var item in Model.shoppingCartList)
+                        {
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6 class="my-0">@item.Product.Name</h6>
+                                    <small class="text-muted">Quantity: @item.Quantity</small>
+                                </div>
+                                <span class="text-muted">@((item.Price * item.Quantity).ToString("c"))</span>
+                            </li>
+                        }
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span class="text-success">Shipping Fee</span>
+                            <strong class="text-success">Free</strong>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <small class="text-dark fw-semibold fs-6">Total (USD)</small>
+                            <strong>@Model.OrderHeader.OrderTotal.ToString("c")</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="row">
+        <div class="col-12 col-md-8 pt-3">
+            <p style="color:#0f1111; font-size:15px; font-weight:500">
+                <span style="color:maroon;font-weight:600">Estimated Arrival Date:</span>
+                @DateTime.Now.AddDays(3).ToShortDateString() - @DateTime.Now.AddDays(10).ToShortDateString()
+            </p>
+        </div>
+        <div class="col-12 col-md-4 text-end">
+            <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-outline-primary px-4 rounded-pill">Continue Shopping</a>
+        </div>
+    </div>
+</div>
