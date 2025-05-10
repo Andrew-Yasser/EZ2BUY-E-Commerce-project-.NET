@@ -1,0 +1,101 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\product\052afd52-d073-42ee-b9fa-037964dae330.jpg
+wwwroot\images\product\61b3db4c-8786-466f-9a5a-aebb3f9a1c62.jpg
+wwwroot\images\product\cbed33d8-fc95-4cc5-a1e1-a1f1ea49b9b7.jpg
+wwwroot\images\product\e8d402e8-3fd8-4a75-ad99-f1b856b751eb.jpg
+wwwroot\images\static\brands\adidas brand.png
+wwwroot\images\static\brands\araby brand.png
+wwwroot\images\static\brands\braun brand.png
+wwwroot\images\static\brands\decker brand.png
+wwwroot\images\static\brands\defacto brand.png
+wwwroot\images\static\brands\lenovo brand.png
+wwwroot\images\static\brands\oraimo brand.png
+wwwroot\images\static\brands\samsung brand.png
+wwwroot\images\static\brands\skechers brand.png
+wwwroot\images\static\brands\starvile brand.png
+wwwroot\images\static\brands\tornado brand.png
+wwwroot\images\static\brands\xiaomi brand.png
+wwwroot\images\static\icons\cat-beauty.png
+wwwroot\images\static\icons\cat-electronics.png
+wwwroot\images\static\icons\cat-Fashion.png
+wwwroot\images\static\icons\cat-grocery.png
+wwwroot\images\static\icons\cat-home&kitchen.png
+wwwroot\images\static\icons\cat-sport.png
+wwwroot\images\static\icons\support-email.svg
+wwwroot\images\static\icons\support-help-center.svg
+wwwroot\images\static\icons\support-icon-phone.svg
+wwwroot\images\static\mastercard.png
+wwwroot\images\static\red polo.png
+wwwroot\images\static\red-home image.jpg
+wwwroot\images\static\stripe.png
+wwwroot\images\static\stripe2.png
+wwwroot\images\static\test2.jpg
+wwwroot\images\static\visa.png
+wwwroot\js\category.js
+wwwroot\js\order.js
+wwwroot\js\product.js
+wwwroot\js\site.js
+wwwroot\js\user.js
+wwwroot\lib\adminlte\dist\css\adminlte.min.css
+wwwroot\lib\adminlte\dist\css\adminlte.min.css.map
+wwwroot\lib\adminlte\dist\js\adminlte.min.js
+wwwroot\lib\adminlte\dist\js\adminlte.min.js.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-sandstone.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
