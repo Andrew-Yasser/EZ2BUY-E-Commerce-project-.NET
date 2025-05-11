@@ -8,57 +8,57 @@ Ez2Buy is an eCommerce web application built with ASP.NET Core MVC, providing a 
 <br />
 </div>
 
-1.1 Non- Functional Requirements:
-•	Administration features
-o	User Management: Assign roles and manage user accounts.
-o	Order Management: View and update order statuses.
-o	Product & Category Management
-•	User Managamenet:
-o	Product Catalog search and filter
-o	Order Placement & Shopping Cart
-o	Payment gateway integration
-o	Email notification for confirmation
+## 1. Project Requirements
 
-1.2 Functional Requirements:
-•	Usability: Responsive design for device types
-•	Security: role-based Access
-•	Reliability & Availability: Comprehensive error handling
-•	Maintainability: Clean code with Comprehensive documentation and Unit tests coverage 
+### 1.1 Functional Requirements
 
+#### Administration Features
+- **User Management:** Assign roles and manage user accounts
+- **Order Management:** View and update order statuses
+- **Product & Category Management:** Create, update, and delete products and categories
 
-Architectural Decisions:
-•	layered architecture:
-o	Presentation Layer: MVC Controllers and Views
-o	Data Access Layer: UnitOfWork and Repository implementations
-o	Data Layer: Entity Framework Core with SQL Server
-•	Repository Pattern for data access abstraction
-•	Unit of Work Pattern for transaction management
-•	MVC Pattern for separation of concerns
-•	ViewModel Pattern for UI data shaping
-•	Using Session data to save data for shopping cart
+#### Customer Features
+- **Product Catalog:** Browse products using pagination
+- **Shopping Cart:** Add/remove items and proceed to checkout
+- **Order Processing:** Place orders and track order status
+- **Payment Integration:** Secure payment gateway support
+- **Notifications:** Email confirmations for orders and account activities
 
+### 1.2 Non-Functional Requirements
+- **Usability:** Responsive design for all device types
+- **Security:** Role-based access control and data protection
+- **Reliability:** Comprehensive error handling and logging
+- **Maintainability:** Clean code architecture with documentation
+- **Testability:** Extensive unit test coverage
 
-Technology Stack Selection:
-•	ASP.NET 8.0 Core MVC web framework
-•	Entity Framework Core
-•	ASP.NET Core Identity
+## 2. Architecture Overview
 
+### 2.1 Layered Architecture
+- **Presentation Layer:**  MVC Controllers, Views, and ViewModels
+- **Data Access Layer:** UnitOfWork and Repository implementations
+- **Data Layer:** Entity Framework Core with SQL Server
 
-Middleware:
-1. app.UseHttpsRedirection() 
-2. app.UseRouting() 
-3. app.UseAuthentication() 
-4. app.UseAuthorization() 
-5. app.UseSession()
+### 2.2 Design Patterns
+- **Repository Pattern:** Abstraction for data access operations
+- **Unit of Work Pattern:** Transaction management
+- **MVC Pattern:** Separation of concerns in UI design
+- **ViewModel Pattern:** Data shaping for presentation
+- **Session Management:** Shopping cart data persistence
 
+## 3. Technology Stack
 
-Next steps: Advanced User Experience
-•	completing API versions
-•	AI-powered product recommendations based on browsing and purchase history
-•	Live chat support or chatbot for instant customer help
-•	Voice search integration for accessibility and convenience
-•	adding Wishlist's and Products Reviews
-•	Enhanced Security & Trust: Fraud detection mechanisms
-•	Supplier/vendor registration and approval workflow 
-•	Supplier dashboard with analytics, product status, and earnings
+- **Framework:** ASP.NET 8.0 Core MVC
+- **ORM:** Entity Framework Core
+- **Authentication:** ASP.NET Core Identity
+- **Frontend:** HTML5, CSS3, Bootstrap, jQuery
+- **Database:** SQL Server
+- **Cloud Platform:** Microsoft Azure
+
+## 4. Future Enhancements
+
+- **API Development:** RESTful API endpoints for third-party integration
+- **AI Integration:** Product recommendations based on user behavior
+- **Customer Support:** Live chat support and intelligent chatbot
+- **Enhanced UX:** Wishlists and product reviews
+- **Vendor Portal:** Supplier registration, dashboard with analytics
 
