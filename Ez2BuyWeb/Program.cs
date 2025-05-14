@@ -40,8 +40,8 @@ namespace Ez2BuyWeb
             //add authentication for faceook,etc
             builder.Services.AddAuthentication().AddFacebook(option =>
             {
-                option.AppId = "527508283572891";
-                option.AppSecret = "45dc4bff335d44a644d207ed550bc692";
+                option.AppId = "add your facebook ID";
+                option.AppSecret = "add your facebook Secret";
             });
 
             //add the session
